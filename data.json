@@ -1,0 +1,10 @@
+{
+	"Tribe": {
+		"name": "Shared Services",
+		"child":[
+				  {"name": "DevOps Tools"},
+				  {"name":"CI-CD Platform"},
+				  {"name" : "PT - CI-CD Platform"}
+				]
+			}
+}
