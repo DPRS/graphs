@@ -10,34 +10,30 @@
     
 </head>
 <body>
-    <div class="chart" id="tree-simple"></div>
+    <div class="chart" id="basic-example"></div>
     <script src="vendor/raphael.js"></script>
     <script src="Treant.js"></script>
     
-   <script src="vendor/jquery.min.js"></script>
-	 <script src="test.js"></script>
+   <script src="vendor/jquery.min.js"></script>	
 	<script>
 		//new Treant( chart_config );
-		var chart_config = '';
-		 $( document ).ready(function() {
-			//var chart_config;
-			chart_config += '{  chart: {  container: "#tree-simple"   },nodeStructure: {';
-			
-			$.ajax({
-				url :'data.json',
-				method : 'POST', // form submit method get/post
-				data : {},
-				ContentType : 'application/json',
-				dataType: 'json',
-				success: function(result){
-					//console.log(result);					
-					$.each( result, function( key, val ) {
+		chart_config = '';
+		$.getJSON("data1.json",function(data){ // this is the jQuery part					
+								
+					//chart_config = $.parseJSON(data);
+					chart_config = data;
+					console.log(chart_config);
+			new Treant( chart_config );
+		});
+
+		/*chart_config += '{"chart":{"container": "#basic-example"   },"nodeStructure": {';
+					$.each( data, function( key, val ) {
 						var me = this;
-						chart_config += 'text:{name:"'+me.name+'"},';
+						chart_config += '"text":{"name":"'+me.name+'"},';
 						var c = 1;
-						chart_config +='children:[';
+						chart_config +='"children":[';
 						$.each(me.child, function(i, j){							
-							chart_config += '{text: { name: "'+this.name+'" }}';
+							chart_config += '{"text": { "name": "'+this.name+'" }}';
 							if(c < me.child.length) { chart_config += ',';	}
 							
 							c++;
@@ -45,17 +41,7 @@
 						chart_config += ']';
 					  
 					});
-					chart_config += '} }';					
-					
-
-					}
-				});
-				
-			new Treant( chart_config );
-			//console.log(chart_config);
-			
-		});
-		
+					chart_config += '}}';*/		
     </script>
 </body>
 </html>
