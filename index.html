@@ -1,47 +1,33 @@
 <!DOCTYPE html>
 <html>
-    <head>
+
+<head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width">
-    <title> Basic example </title>
+    <title> Product Team Data </title>
     <link rel="stylesheet" href="Treant.css">
-    <link rel="stylesheet" href="basic-example.css">
-    
+    <link rel="stylesheet" href="format.css">
+
 </head>
+
 <body>
-    <div class="chart" id="basic-example"></div>
+    <div class="chart" id="ProductTeam-Data"></div>
     <script src="vendor/raphael.js"></script>
     <script src="Treant.js"></script>
-    
-   <script src="vendor/jquery.min.js"></script>	
-	<script>
-		//new Treant( chart_config );
-		chart_config = '';
-		$.getJSON("data1.json",function(data){ // this is the jQuery part					
-								
-					//chart_config = $.parseJSON(data);
-					chart_config = data;
-					console.log(chart_config);
-			new Treant( chart_config );
-		});
 
-		/*chart_config += '{"chart":{"container": "#basic-example"   },"nodeStructure": {';
-					$.each( data, function( key, val ) {
-						var me = this;
-						chart_config += '"text":{"name":"'+me.name+'"},';
-						var c = 1;
-						chart_config +='"children":[';
-						$.each(me.child, function(i, j){							
-							chart_config += '{"text": { "name": "'+this.name+'" }}';
-							if(c < me.child.length) { chart_config += ',';	}
-							
-							c++;
-						});
-						chart_config += ']';
-					  
-					});
-					chart_config += '}}';*/		
+    <script src="vendor/jquery.min.js"></script>
+    <script>
+        //new Treant( chart_config );
+        chart_config = '';
+        $.getJSON("data.json", function(data) { // this is the jQuery part					
+
+            //chart_config = $.parseJSON(data);
+            chart_config = data;
+            console.log(chart_config);
+            new Treant(chart_config);
+        });
     </script>
 </body>
+
 </html>

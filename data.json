@@ -1,10 +1,52 @@
 {
-	"Tribe": {
-		"name": "Shared Services",
-		"child":[
-				  {"name": "DevOps Tools"},
-				  {"name":"CI-CD Platform"},
-				  {"name" : "PT - CI-CD Platform"}
-				]
-			}
+    "chart": {
+        "container": "#ProductTeam-Data",
+        "connectors": {
+            "type": "step"
+        },
+        "node": {
+            "HTMLclass": "nodeSample"
+        }
+    },
+
+    "nodeStructure": {
+        "text": { "Tribe": "Shared Services" },
+        "children": [{
+                "text": { "ProductLine": "DevOps Tools" },
+                "children": [{
+                    "text": { "ProductGroup": "Monitoring Platform" },
+                    "children": [{
+                        "text": { "ProductTeam": "PT - Monitoring Platform", "TM": "TM: Raju", "IM": "IM: Subbu", "Architect": "Architect: John" }
+                    }]
+                }]
+            },
+            {
+                "text": { "name": "Cloud Engineering" },
+                "children": [{
+                    "text": { "ProductGroup": "Cloud Management" },
+                    "children": [{
+                        "text": { "ProductTeam": "PT - Cloud Enablement", "TM": "TM: David", "IM": "IM: Leann", "Architect": "Architect: Phani" }
+                    }]
+                }]
+            },
+            {
+                "text": { "name": "Delivery Services" },
+                "children": [{
+                    "text": { "ProductGroup": "Release - PG" },
+                    "children": [{
+                        "text": { "ProductTeam": "PT - Release", "TM": "TM: Diana", "IM": "IM: Ranga", "Architect": "Architect: Peter" }
+                    }]
+                }]
+            },
+            {
+                "text": { "name": "Cloud Engineering" },
+                "children": [{
+                    "text": { "ProductGroup": "Cloud Management" },
+                    "children": [{
+                        "text": { "ProductTeam": "PT - Cloud Enablement", "TM": "TM: David", "IM": "IM: Leann", "Architect": "Architect: Phani" }
+                    }]
+                }]
+            }
+        ]
+    }
 }
