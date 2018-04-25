@@ -7,99 +7,21 @@
         },
         {
             "Tribe": "Shared Services",
-            "Product Line": "DevOps Tools",
-            "Product Group": "CI-CD Platform",
-            "Product Team": "PT - CI-CD Platform"
+            "Product Line": "DevOps Tools 1",
+            "Product Group": "CI-CD Platform 1",
+            "Product Team": "PT - CI-CD Platform 1"
         },
         {
             "Tribe": "Shared Services",
-            "Product Line": "DevOps Tools",
-            "Product Group": "CI-CD Platform",
-            "Product Team": "PT - CI-CD Platform"
+            "Product Line": "DevOps Tools 2",
+            "Product Group": "CI-CD Platform 2",
+            "Product Team": "PT - CI-CD Platform 2"
         },
         {
             "Tribe": "Shared Services",
-            "Product Line": "DevOps Tools",
+            "Product Line": "DevOps Tools 3",
             "Product Group": "Engineering Collaboration",
             "Product Team": "PT - Collaboration Platform"
-        },
-        {
-            "Tribe": "Shared Services",
-            "Product Line": "DevOps Tools",
-            "Product Group": "Monitoring Platform",
-            "Product Team": "PT - Monitoring Platform"
-        },
-        {
-            "Tribe": "Shared Services",
-            "Product Line": "DevOps Tools",
-            "Product Group": "Monitoring Platform",
-            "Product Team": "PT - Monitoring Platform"
-        },
-        {
-            "Tribe": "Shared Services",
-            "Product Line": "DevOps Tools",
-            "Product Group": "Monitoring Platform",
-            "Product Team": "PT - Monitoring Platform"
-        },
-        {
-            "Tribe": "Shared Services",
-            "Product Line": "DevOps Tools",
-            "Product Group": "Test Platform",
-            "Product Team": "PT - Test Platform"
-        },
-        {
-            "Tribe": "Shared Services",
-            "Product Line": "DevOps Tools",
-            "Product Group": "Test Platform",
-            "Product Team": "PT - Test Platform"
-        },
-        {
-            "Tribe": "Shared Services",
-            "Product Line": "Cloud Engineering",
-            "Product Group": "Cloud Management",
-            "Product Team": "PT - Cloud Enablement"
-        },
-        {
-            "Tribe": "Shared Services",
-            "Product Line": "Cloud Engineering",
-            "Product Group": "Cloud Management",
-            "Product Team": "PT - Cloud Enablement"
-        },
-        {
-            "Tribe": "Shared Services",
-            "Product Line": "Cloud Engineering",
-            "Product Group": "Service Discovery",
-            "Product Team": "PT - API Platform"
-        },
-        {
-            "Tribe": "Shared Services",
-            "Product Line": "Cloud Engineering",
-            "Product Group": "Cloud Platform",
-            "Product Team": "PT - Configuration Automation"
-        },
-        {
-            "Tribe": "Shared Services",
-            "Product Line": "Cloud Engineering",
-            "Product Group": "Cloud Platform",
-            "Product Team": "PT - PaaS"
-        },
-        {
-            "Tribe": "Shared Services",
-            "Product Line": "Delivery Services",
-            "Product Group": "Release - PG",
-            "Product Team": "PT - Release"
-        },
-        {
-            "Tribe": "Shared Services",
-            "Product Line": "Delivery Services",
-            "Product Group": "Release - PG",
-            "Product Team": "PT - Release"
-        },
-        {
-            "Tribe": "Shared Services",
-            "Product Line": "Delivery Services",
-            "Product Group": "Compliance - PG",
-            "Product Team": "PT - Compliance"
         }
     ]
 }
