@@ -10,40 +10,40 @@
     },
 
     "nodeStructure": {
-        "text": { "Tribe": "Shared Services" },
+        "text": { "Tribe": "Tribe: Shared Services" },
         "children": [{
-                "text": { "ProductLine": "DevOps Tools" },
+                "text": { "ProductLine": "ProductLine: DevOps Tools" },
                 "children": [{
-                    "text": { "ProductGroup": "Monitoring Platform" },
+                    "text": { "ProductGroup": "ProductGroup: Monitoring Platform" },
                     "children": [{
-                        "text": { "ProductTeam": "PT - Monitoring Platform", "TM": "TM: Raju", "IM": "IM: Subbu", "Architect": "Architect: John" }
+                        "text": { "ProductTeam": "ProductTeam: PT - Monitoring Platform", "TM": "TM: Raju", "IM": "IM: Subbu", "Architect": "Architect: John" }
                     }]
                 }]
             },
             {
-                "text": { "name": "Cloud Engineering" },
+                "text": { "name": "ProductLine: Cloud Engineering" },
                 "children": [{
-                    "text": { "ProductGroup": "Cloud Management" },
+                    "text": { "ProductGroup": "ProductGroup: Cloud Management" },
                     "children": [{
-                        "text": { "ProductTeam": "PT - Cloud Enablement", "TM": "TM: David", "IM": "IM: Leann", "Architect": "Architect: Phani" }
+                        "text": { "ProductTeam": "ProductTeam: PT - Cloud Enablement", "TM": "TM: David", "IM": "IM: Leann", "Architect": "Architect: Phani" }
                     }]
                 }]
             },
             {
-                "text": { "name": "Delivery Services" },
+                "text": { "name": "ProductLine: Delivery Services" },
                 "children": [{
-                    "text": { "ProductGroup": "Release - PG" },
+                    "text": { "ProductGroup": "ProductGroup: Release - PG" },
                     "children": [{
-                        "text": { "ProductTeam": "PT - Release", "TM": "TM: Diana", "IM": "IM: Ranga", "Architect": "Architect: Peter" }
+                        "text": { "ProductTeam": "ProductTeam: PT - Release", "TM": "TM: Diana", "IM": "IM: Ranga", "Architect": "Architect: Peter" }
                     }]
                 }]
             },
             {
-                "text": { "name": "Cloud Engineering" },
+                "text": { "name": "ProductLine: Dashboard Metrics" },
                 "children": [{
-                    "text": { "ProductGroup": "Cloud Management" },
+                    "text": { "ProductGroup": "ProductGroup: Cloud Management" },
                     "children": [{
-                        "text": { "ProductTeam": "PT - Cloud Enablement", "TM": "TM: David", "IM": "IM: Leann", "Architect": "Architect: Phani" }
+                        "text": { "ProductTeam": "ProductTeam: PT - Cloud Enablement", "TM": "TM: David", "IM": "IM: Leann", "Architect": "Architect: Phani" }
                     }]
                 }]
             }

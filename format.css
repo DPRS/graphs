@@ -81,9 +81,9 @@ body {
 /* optional Container STYLES */
 
 .chart {
-    height: 600px;
+    height: 900px;
     margin: 5px;
-    width: 900px;
+    width: 1100px;
 }
 
 .Treant>.node {}
@@ -105,9 +105,9 @@ body {
     border-radius: 3px;
     background-color: #ffffff;
     border: 1px solid #000;
-    width: 200px;
+    width: 220px;
     font-family: Tahoma;
-    font-size: 15px;
+    font-size: 12px;
     text-align: center;
     font-weight: bold;
     background-color: lightblue;

@@ -20,13 +20,46 @@
     <script>
         //new Treant( chart_config );
         chart_config = '';
-        $.getJSON("data.json", function(data) { // this is the jQuery part					
+        $.getJSON("chandu.json", function(data) { // this is the jQuery part					
+                    var chart_config = '';
+                    chart_config += '{"chart": {"container": "#ProductTeam-Data","connectors": {"type": "step"},"node": {"HTMLclass": "nodeSample"}},"nodeStructure": {';
 
-            //chart_config = $.parseJSON(data);
-            chart_config = data;
-            console.log(chart_config);
-            new Treant(chart_config);
-        });
+                    var sn_data = data.sn_data;
+                    console.log(sn_data);
+                    $.each(sn_data, funcion(key, val) {
+                            if (key == 'Tribe') {
+                                chart_config += '"text":{"' + val + '"},';
+                            }
+                            "text": {
+                                "Tribe": "Tribe: Shared Services"
+                            },
+                            "children": [{
+                                    "text": {
+                                        "ProductLine": "ProductLine: DevOps Tools"
+                                    },
+                                    "children": [{
+                                        "text": {
+                                            "ProductGroup": "ProductGroup: Monitoring Platform"
+                                        },
+                                        "children": [{
+                                            "text": {
+                                                "ProductTeam": "ProductTeam: PT - Monitoring Platform",
+                                                "TM": "TM: Raju",
+                                                "IM": "IM: Subbu",
+                                                "Architect": "Architect: John"
+                                            }
+                                        }]
+                                    }]
+                                },
+
+
+
+                            })
+                        //chart_config = $.parseJSON(data);
+                        /*chart_config = data;
+                        console.log(chart_config);
+                        new Treant(chart_config);*/
+                    });
     </script>
 </body>
 
